@@ -1,0 +1,81 @@
+body {
+    background-color: rgb(3, 1, 4);
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    height: 100vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+h2 {
+    color:rgb(248, 248, 248);
+}
+
+p {
+    color:#f8f8f8;
+}
+
+.highScores {
+    color:rgb(174, 29, 203);
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}
+
+#highScoreButton {
+    background-color: transparent;
+    border: transparent;
+    border-radius: 10px;
+    font-size: 15px;
+    color: rgb(174, 29, 203)
+}
+
+#screenTime {
+    color: rgb(174, 29, 203);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+#startButton {
+    background-color: transparent;
+    border: .5px solid rgb(174, 29, 203);
+    border-radius: 10px;
+    color: #fff;
+    padding: 8px;
+  }
+
+#startButton:hover {
+    background-color: rgba(216, 109, 238, 0.506);
+}
+
+.prompt {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    align-items: flex-start;
+    justify-content: center;
+    color: #f8f8f8;
+}
+
+.buttonContainment {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.answerButton {
+    width: 100%;
+    background-color: transparent;
+    border: .5px solid rgb(174, 29, 203);
+    border-radius: 10px;
+    color: #fff;
+    padding: 8px;
+}
+
+.answerButton:hover {
+    background-color: rgba(216, 109, 238, 0.506);
+}
